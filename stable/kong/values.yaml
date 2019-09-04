@@ -351,6 +351,7 @@ cassandra:
 postgresql:
   enabled: true
   postgresqlUsername: kong
+  postgresqlPassword: kong
   postgresqlDatabase: kong
   service:
     port: 5432
